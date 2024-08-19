@@ -1,3 +1,5 @@
+/* import addPoint from './counter.js'; */
+
 let field = document.querySelector(".field");
 let target = document.createElement("img");
 let fieldCircle = document.createElement("div");
@@ -26,3 +28,5 @@ function showTarget() {
 }
 
 setInterval(showTarget, 1000);
+
+

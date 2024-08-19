@@ -6,6 +6,7 @@
   flex-wrap: wrap;
   gap: 5px;
   justify-content: space-evenly;
+  cursor: url(../img/hammer-cursor.svg), pointer;
 }
 
 .field__circle {
@@ -18,4 +19,10 @@
 
 body {
   background-color: #3f6edb;
+  display: flex;
+}
+
+.counter {
+  font-size: 40px;
+  margin-left: 30px;
 }
