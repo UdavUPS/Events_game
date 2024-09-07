@@ -1,10 +1,12 @@
 /* import addPoint from './counter.js'; */
+import goblin from '../img/goblin.png';
 
 let field = document.querySelector(".field");
 let target = document.createElement("img");
 let fieldCircle = document.createElement("div");
 
-target.src = "img/goblin.png";
+/* target.src = "img/goblin.png"; */
+target.src = goblin;
 fieldCircle.classList.add("field__circle");
 
 for (let i=0; i<16; i++) {
